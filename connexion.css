@@ -1,0 +1,213 @@
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-size:unset;
+    background-position: center;
+    background-color: #E3E6E6;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+.logg{
+    color: white;
+}
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background: white;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.wrapper h1{
+    font-size: 2em;
+    color:  black;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid  black;
+}
+
+.wrapper .input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: black;
+    padding: 0 40px 0 5px;
+}
+
+.wrapper .input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    pointer-events: none;
+}
+
+.wrapper .input-box input:focus ~ label,
+.wrapper .input-box input:valid ~ label{
+    top: -5px;
+}
+.wrapper .input-box .icon{
+    position: absolute;
+    right: 8px;
+    line-height: 57px;
+}
+
+.wrapper .row{
+    margin: -15px 0 15px;
+    font-size: 0.9em;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .row label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper .row a{
+    color: black;
+    text-decoration: none;
+}
+.wrapper .row a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.wrapper .btn:hover{
+    opacity: 0.8;
+}
+
+.wrapper .signup-link{
+    font-size: 0.9em;
+    color: black;
+    text-align: center;
+    margin: 20px 0 10 px;
+}
+
+.wrapper .signup-link a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.wrapper .signup-link a:hover{
+    text-decoration: underline;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+h1, h2, h3 {
+    line-height: 1.2;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+.highlight {
+    color: #f00;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-left: -14px;
+}
+.container h1{
+    color: black;
+}
+.container h2 {
+    color: black;
+}
+.container p {
+    color: black;
+}
+.container h3 {
+    color: black;
+}
+.logo img{
+    width: 80px;
+    border-radius: 15px;
+    position: relative;
+   bottom: 520px;
+  margin: 5px;
+  margin-top: -5px;
+  box-shadow: 5px 5px 15px red;
+  
+}
+.presentation a{
+    color: orange;
+}
+.container  img{
+    width: 30px;
+    
+}
+
+.reseau a{
+    
+    color: orangered;
+    
+    
+}
+.reseau a {
+    margin-right: 10px;
+    display: inline-block;
+}
